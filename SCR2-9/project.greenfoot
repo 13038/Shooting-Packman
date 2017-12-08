@@ -1,0 +1,6 @@
+#Greenfoot properties
+#Fri Dec 08 09:56:09 JST 2017
+class.MyWorld.superclass=greenfoot.World
+version=2.7.1
+project.charset=UTF-8
+class.MyWorld.image=board.jpg
