@@ -6,7 +6,6 @@ target3.height=50
 target5.height=50
 =======
 #Greenfoot project file
->>>>>>>=dadab3367014ff7154755a2336dbb2fc19de2fa9
 class.Alien.image=seal.png
 class.Alien.superclass=greenfoot.Actor
 class.B.image=rock.png
@@ -20,7 +19,7 @@ class.wombat.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=856
 mainWindow.x=75
-mainWindow.y=180
+mainWindow.y=208
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
@@ -91,8 +90,8 @@ package.numDependencies=0
 =======
 target4.editor.height=700
 target4.editor.width=900
-target4.editor.x=986
-target4.editor.y=133
+target4.editor.x=105
+target4.editor.y=52
 target4.height=50
 target4.name=Alien
 >>>>>>> 3d869783dd2f04059da50565fe0ac0c4cfbb464f
