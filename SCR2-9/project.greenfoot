@@ -1,4 +1,5 @@
 #Greenfoot project file
+>>>>>>>=f5e6c23ec196e5855ea7e4460a6bbc5000be3b33
 class.Alien.image=seal.png
 class.Alien.superclass=greenfoot.Actor
 class.B.image=rock.png
@@ -11,8 +12,8 @@ class.wombat.image=wombat.png
 class.wombat.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=856
-mainWindow.x=420
-mainWindow.y=272
+mainWindow.x=789
+mainWindow.y=315
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
@@ -58,7 +59,7 @@ target3.y=10
 target4.editor.height=700
 target4.editor.width=900
 target4.editor.x=105
-target4.editor.y=52
+target4.editor.y=80
 target4.height=50
 target4.name=Alien
 target4.naviview.expanded=true
