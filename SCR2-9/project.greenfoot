@@ -12,7 +12,9 @@ class.wombat.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=856
 mainWindow.x=533
+
 mainWindow.y=275
+
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8

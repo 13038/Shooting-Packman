@@ -20,5 +20,9 @@ public class Alien extends Actor
     }
 
         // Add your action code here.
+        if( Greenfoot.isKeyDown( "up" ) ){
+        setRotation(270);
+        move(4);
+    }
     }    
 }
