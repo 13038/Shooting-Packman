@@ -14,6 +14,12 @@ public class Player extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        Actor actor = getOneObjectAtOffset( 0, 0, enemy.class );
+            if( actor != null ){
+                move(0);
+                //ゲームオーバー画面出力
+                Greenfoot.stop();
+            }       
+
     }    
 }
