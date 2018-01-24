@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=7a2efb5f749c12297054d5e01759f92f7d025a34
+>>>>>>>=dfa412917d37a25c90fadfe50acd3ce3e606f190
 class.MyWorld.image=Wall.jpg
 class.MyWorld.superclass=greenfoot.World
 class.Player.image=player.png
@@ -14,20 +14,20 @@ class.text-temp.superclass=greenfoot.World
 dependency1.from=MyWorld
 dependency1.to=muffin
 dependency1.type=UsesDependency
-dependency2.from=text-temp
-dependency2.to=text-temp
+dependency2.from=Player
+dependency2.to=enemy
 dependency2.type=UsesDependency
 mainWindow.height=574
 mainWindow.width=856
-mainWindow.x=594
-mainWindow.y=214
-package.numDependencies=1
+mainWindow.x=842
+mainWindow.y=459
+package.numDependencies=2
 package.numTargets=4
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=105
-target1.editor.y=80
+target1.editor.y=52
 target1.height=50
 target1.name=enemy
 target1.naviview.expanded=true
