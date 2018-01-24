@@ -14,6 +14,10 @@ public class enemy extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+       Actor actor = getOneObjectAtOffset( 0, 0, Player.class );
+            if( actor != null ){
+                move(0);
+            }       
+
     }    
 }
