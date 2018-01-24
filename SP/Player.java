@@ -14,6 +14,21 @@ public class Player extends Actor
      */
     public void act() 
     {
+        int x = getX();
+        int y = getY();
+        if( Greenfoot.isKeyDown( "left" ) ){
+           setLocation( x-1,y );
+        }
+        if( Greenfoot.isKeyDown( "right" ) ){
+           setLocation( x+1,y );
+        }
+        if( Greenfoot.isKeyDown( "up" ) ){
+           setLocation( x,y-1 );
+        }
+        if( Greenfoot.isKeyDown( "down") ){
+           setLocation( x,y+1 );
+        }
+        
         Actor actor = getOneObjectAtOffset( 0, 0, enemy.class );
             if( actor != null ){
                 move(0);
