@@ -8,16 +8,28 @@ import greenfoot.*;
  */
 public class MyWorld extends World
 {
+<<<<<<< HEAD
     private int item = 0;
 
+=======
+    private int rtime;
+>>>>>>> 24cd2c480e544b5dbb79ccb5085dff61c5be058d
     /**
      * Constructor for objects of class MyWorld.
      * 
      */
+    
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+<<<<<<< HEAD
         super(600, 400, 1);
+=======
+        super(600, 400, 1); 
+        rtime = 6000;
+        
+      
+>>>>>>> 24cd2c480e544b5dbb79ccb5085dff61c5be058d
         for(int i=0;i<7;++i){
             int xmin = 0;
             int xmax = 600;
@@ -28,5 +40,17 @@ public class MyWorld extends World
 
             addObject( new muffin(), x, y );
         }
+
     }
+    public void act()
+    {
+        rtime--;
+        showText( "残り時間 = " + (rtime/60) + "秒", 500, 50 );
+        //if( rtime == 0 )
+        //{
+           // showText( "Time Over", 100, 100 );
+            //Greenfoot.stop();
+        //}
+    }
+    
 }
