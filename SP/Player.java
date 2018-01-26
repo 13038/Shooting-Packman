@@ -14,6 +14,37 @@ public class Player extends Actor
      */
     public void act() 
     {
+     
+        if( Greenfoot.isKeyDown( "right" ) ){
+            setRotation(0);
+            move(1);
+            checkObstacle();
+        }
+        if( Greenfoot.isKeyDown( "left" ) ){
+            setRotation(180);
+            move(1);
+            checkObstacle();
+        }
+        if( Greenfoot.isKeyDown( "down" ) ){
+        setRotation(90);
+        move(1);
+        checkObstacle();
+    }
         // Add your action code here.
-    }    
+        if( Greenfoot.isKeyDown( "up" ) ){
+            setRotation(270);
+            move(4);
+            checkObstacle();
+        }
+        // Add your action code here.
+    }
+    public void checkObstacle()
+{
+    Actor wall = getOneIntersectingObject(Wall.class);
+    if(wall!=null)
+    {
+        move(-1);
+    }
 }
+}
+
