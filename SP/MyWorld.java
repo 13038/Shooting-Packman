@@ -8,6 +8,7 @@ import greenfoot.*;
  */
 public class MyWorld extends World
 {
+    private int item = 0;
 
     /**
      * Constructor for objects of class MyWorld.
@@ -16,7 +17,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(600, 400, 1);
         for(int i=0;i<7;++i){
             int xmin = 0;
             int xmax = 600;
