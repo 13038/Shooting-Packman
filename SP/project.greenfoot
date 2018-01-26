@@ -1,20 +1,6 @@
 #Greenfoot properties
 #Fri Jan 26 10:03:36 JST 2018
 target4.type=ClassTarget
-<<<<<<<=HEAD
-target3.height=50
-target5.height=50
-target1.editor.y=52
-target1.editor.x=105
-class.Player.superclass=greenfoot.Actor
-target4.name=muffin
-target4.typeParameters=
-class.Player.image=player.png
-target1.height=50
-target5.type=ClassTarget
-target3.typeParameters=
-mainWindow.width=856
->>>>>>>=7a2efb5f749c12297054d5e01759f92f7d025a34
 target2.width=80
 target3.editor.y=403
 target3.editor.x=433
