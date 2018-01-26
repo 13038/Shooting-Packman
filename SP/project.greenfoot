@@ -1,12 +1,7 @@
 #Greenfoot project file
-<<<<<<< HEAD
-<<<<<<<=HEAD
->>>>>>>=7a2efb5f749c12297054d5e01759f92f7d025a34
-=======
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=4b505aaed8d342d1a75be72f5087f21223574609
->>>>>>> 24cd2c480e544b5dbb79ccb5085dff61c5be058d
+>>>>>>>=24cd2c480e544b5dbb79ccb5085dff61c5be058d
 class.MyWorld.image=Wall.jpg
 class.MyWorld.superclass=greenfoot.World
 class.Player.image=player.png
@@ -20,35 +15,25 @@ dependency1.from=MyWorld
 dependency1.to=muffin
 dependency1.type=UsesDependency
 dependency2.from=Player
-<<<<<<< HEAD
-dependency2.to=muffin
-dependency2.type=UsesDependency
-mainWindow.height=574
-mainWindow.width=856
-mainWindow.x=937
-mainWindow.y=437
-=======
 dependency2.to=enemy
 dependency2.type=UsesDependency
 dependency3.from=enemy
 dependency3.to=Player
 dependency3.type=UsesDependency
+dependency4.from=Player
+dependency4.to=muffin
+dependency4.type=UsesDependency
 mainWindow.height=574
 mainWindow.width=856
 mainWindow.x=198
 mainWindow.y=210
->>>>>>> 24cd2c480e544b5dbb79ccb5085dff61c5be058d
-package.numDependencies=2
+package.numDependencies=4
 package.numTargets=4
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=105
-<<<<<<< HEAD
-target1.editor.y=80
-=======
-target1.editor.y=52
->>>>>>> 24cd2c480e544b5dbb79ccb5085dff61c5be058d
+target1.editor.y=24
 target1.height=50
 target1.name=enemy
 target1.naviview.expanded=true
@@ -60,12 +45,8 @@ target1.x=160
 target1.y=70
 target2.editor.height=700
 target2.editor.width=900
-<<<<<<< HEAD
-target2.editor.x=937
-=======
-target2.editor.x=105
->>>>>>> 24cd2c480e544b5dbb79ccb5085dff61c5be058d
-target2.editor.y=24
+target2.editor.x=599
+target2.editor.y=121
 target2.height=50
 target2.name=Player
 target2.naviview.expanded=false
@@ -77,13 +58,8 @@ target2.x=70
 target2.y=70
 target3.editor.height=700
 target3.editor.width=900
-<<<<<<< HEAD
-target3.editor.x=972
-target3.editor.y=276
-=======
 target3.editor.x=105
 target3.editor.y=72
->>>>>>> 24cd2c480e544b5dbb79ccb5085dff61c5be058d
 target3.height=50
 target3.name=muffin
 target3.naviview.expanded=false
@@ -95,13 +71,8 @@ target3.x=160
 target3.y=10
 target4.editor.height=700
 target4.editor.width=900
-<<<<<<< HEAD
-target4.editor.x=965
-target4.editor.y=481
-=======
 target4.editor.x=806
-target4.editor.y=176
->>>>>>> 24cd2c480e544b5dbb79ccb5085dff61c5be058d
+target4.editor.y=148
 target4.height=50
 target4.name=MyWorld
 target4.naviview.expanded=false
@@ -111,8 +82,6 @@ target4.typeParameters=
 target4.width=80
 target4.x=70
 target4.y=10
-<<<<<<< HEAD
-=======
 target5.editor.height=700
 target5.editor.width=900
 target5.editor.x=105
@@ -139,6 +108,5 @@ target6.typeParameters=
 target6.width=80
 target6.x=70
 target6.y=10
->>>>>>> 24cd2c480e544b5dbb79ccb5085dff61c5be058d
 version=2.7.1
 world.lastInstantiated=MyWorld

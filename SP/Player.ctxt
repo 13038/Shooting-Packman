@@ -1,6 +1,5 @@
 #BlueJ class context
 comment0.params=
-<<<<<<< HEAD
 comment0.target=Player()
 comment1.params=
 comment1.target=void\ act()
@@ -8,8 +7,3 @@ comment1.text=\n\ Act\ -\ do\ whatever\ the\ Player\ wants\ to\ do.\ This\ metho
 comment2.params=
 comment2.target=void\ get()
 numComments=3
-=======
-comment0.target=void\ act()
-comment0.text=\n\ Act\ -\ do\ whatever\ the\ Player\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-numComments=1
->>>>>>> 24cd2c480e544b5dbb79ccb5085dff61c5be058d
