@@ -43,9 +43,9 @@ public class TAMA extends Actor
             setLocation( x,y+50 );
         }
         
-        /*Acter wall = getOneIntersectingObject(Wall.class);
-        if(wall!=NULL){
+        Actor wall = getOneIntersectingObject(Wall.class);
+        if(wall!=null){
             getWorld().removeObject( this );
-        }*/
+        }
     }    
 }

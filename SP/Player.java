@@ -23,19 +23,6 @@ public class Player extends Actor
     public static int flag_key;
     public void act() 
     {
-
-        // Add your action code here.
-        get();//アイテム獲得カウンタ
-    } 
-    public void get()
-    {
-         Actor actor1 = getOneObjectAtOffset( 0, 0, muffin.class );
-            if( actor1 != null ){
-                getWorld().removeObject( actor1 );
-                ++item;
-                }
-                getWorld().showText( "item="+item, 100, 50 );
->>>>>>> db6933d853bddd969166d8fd5a5c91f205bca3f3
         int x = getX();
         int y = getY();
         if( Greenfoot.isKeyDown( "left" ) ){
@@ -64,15 +51,24 @@ public class Player extends Actor
             }
         }
         
+        get();//アイテム獲得カウンタ
+        
         /*当たり判定*/
         Actor actor = getOneObjectAtOffset( 0, 0, enemy.class );
-            if( actor != null ){
-                move(0);
-                //ゲームオーバー画面出力
-                Greenfoot.stop();
-            }       
+        if( actor != null ){
+            move(0);
+            //ゲームオーバー画面出力
+            Greenfoot.stop();
+        }       
+    } 
+    public void get()
+    {
+        Actor actor1 = getOneObjectAtOffset( 0, 0, muffin.class );
+        if( actor1 != null ){
+            getWorld().removeObject( actor1 );
+            ++item;
+        }
+        getWorld().showText( "item="+item, 100, 50 );
     }    
->>>>>>> 7f85bc2ff254700c6482d1ff64672dd95c9da1e5
-}
 }
 
