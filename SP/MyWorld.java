@@ -36,19 +36,20 @@ public class MyWorld extends World
         addObject( new Wall(), 600, 400 );
         addObject( new Wall(), 0, 400 );
         
-        while(int j<600){
+        int i=0;
+        while(i<600){
             i=i+40;
             addObject( new Wall(), i, 0 );
         }
-        while(int j<600){
+        while(i<600){
             i=i+40;
             addObject( new Wall(), i, 400 );
         }
-        while(int j<400){
+        while(i<400){
             i=i+40;
             addObject( new Wall(), 0, i );
         }
-        while(int j<400){
+        while(i<400){
             i=i+40;
             addObject( new Wall(), 600, i );
         }
