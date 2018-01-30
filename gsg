@@ -1,0 +1,46 @@
+[1mdiff --cc SCR2-9/project.greenfoot[m
+[1mindex dd1585a,7fafc35..0000000[m
+mode 100644,100644..100755[m
+[1m--- a/SCR2-9/project.greenfoot[m
+[1m+++ b/SCR2-9/project.greenfoot[m
+[36m@@@ -1,22 -1,22 +1,40 @@@[m
+  #Greenfoot project file[m
+[32m++<<<<<<< HEAD[m
+[32m +class.D.image=wombat.png[m
+[32m +class.D.superclass=greenfoot.Actor[m
+[32m +class.MyWorld.image=board.jpg[m
+[32m +class.MyWorld.superclass=greenfoot.World[m
+[32m +mainWindow.height=546[m
+[32m +mainWindow.width=856[m
+[32m +mainWindow.x=919[m
+[32m +mainWindow.y=498[m
+[32m++=======[m
+[32m+ class.B.image=rock.png[m
+[32m+ class.B.superclass=greenfoot.Actor[m
+[32m+ class.MyWorld.image=board.jpg[m
+[32m+ class.MyWorld.superclass=greenfoot.World[m
+[32m+ mainWindow.height=574[m
+[32m+ mainWindow.width=856[m
+[32m+ mainWindow.x=831[m
+[32m+ mainWindow.y=163[m
+[32m++>>>>>>> 9b58996032ae35493e19c6f0f0e387f5d2fae954[m
+  package.numDependencies=0[m
+  package.numTargets=2[m
+  project.charset=UTF-8[m
+  target1.editor.height=700[m
+  target1.editor.width=900[m
+  target1.editor.x=105[m
+[32m++<<<<<<< HEAD[m
+[32m +target1.editor.y=72[m
+[32m +target1.height=50[m
+[32m +target1.name=D[m
+[32m +target1.naviview.expanded=false[m
+[32m++=======[m
+[32m+ target1.editor.y=24[m
+[32m+ target1.height=50[m
+[32m+ target1.name=B[m
+[32m+ target1.naviview.expanded=true[m
+[32m++>>>>>>> 9b58996032ae35493e19c6f0f0e387f5d2fae954[m
+  target1.showInterface=false[m
+  target1.type=ClassTarget[m
+  target1.typeParameters=[m
