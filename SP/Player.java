@@ -21,7 +21,7 @@ public class Player extends Actor
      */
     public void act() 
     {
-<<<<<<< HEAD
+
      
         if( Greenfoot.isKeyDown( "right" ) ){
             setRotation(0);
@@ -44,19 +44,20 @@ public class Player extends Actor
             move(4);
             checkObstacle();
         }
-        // Add your action code here.
+    // Add your action code here.
+    get();//アイテム獲得カウンタ
     }
     public void checkObstacle()
-{
+   {
     Actor wall = getOneIntersectingObject(Wall.class);
     if(wall!=null)
     {
         move(-1);
     }
-=======
+
 
         // Add your action code here.
-        get();//アイテム獲得カウンタ
+        
     } 
     public void get()
     {
@@ -88,7 +89,6 @@ public class Player extends Actor
                 Greenfoot.stop();
             }       
     }    
->>>>>>> 7f85bc2ff254700c6482d1ff64672dd95c9da1e5
 }
-}
+
 
