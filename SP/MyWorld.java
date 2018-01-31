@@ -30,6 +30,35 @@ public class MyWorld extends World
 
             addObject( new muffin(), x, y );
         }
+        
+        addObject( new Wall(), 0, 0 );
+        addObject( new Wall(), 600, 0 );
+        addObject( new Wall(), 600, 400 );
+        addObject( new Wall(), 0, 400 );
+        
+        int i=0;
+        while(i<600){
+            i=i+40;
+            addObject( new Wall(), i, 0 );
+        }
+        i=0;
+
+
+        while(i<600){
+            i=i+40;
+            addObject( new Wall(), i, 400 );
+        }
+        i=0;
+        while(i<400){
+            i=i+40;
+            addObject( new Wall(), 0, i );
+        }
+        i=0;
+        while(i<400){
+            i=i+40;
+            addObject( new Wall(), 600, i );
+        }
+        
 
     }
     public void act()
