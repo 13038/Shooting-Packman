@@ -20,6 +20,8 @@ public class enemy extends Actor
             }  
             move(1);
             checkObstacle();  
+            
+                
         // Add your action code here.
     }
     public void checkObstacle()
@@ -46,5 +48,3 @@ public class enemy extends Actor
 }// Add your action code here.
 }    
 
-
-            

@@ -42,6 +42,8 @@ public class MyWorld extends World
             addObject( new Wall(), i, 0 );
         }
         i=0;
+
+
         while(i<600){
             i=i+40;
             addObject( new Wall(), i, 400 );

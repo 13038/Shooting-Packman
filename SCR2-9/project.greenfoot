@@ -12,8 +12,14 @@ class.wombat.image=wombat.png
 class.wombat.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=856
+<<<<<<< HEAD
 mainWindow.x=713
 mainWindow.y=381
+=======
+mainWindow.x=789
+mainWindow.y=371
+>>>>>>> db6933d853bddd969166d8fd5a5c91f205bca3f3
+>>>>>>> 31c73dada7e36aaf4585cdc40cefef2853346529
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
@@ -44,10 +50,21 @@ target2.width=80
 target2.x=70
 target2.y=70
 target3.editor.height=700
+<<<<<<< HEAD
 target3.editor.width=900
 target3.editor.x=105
 target3.editor.y=24
 target3.height=50
+=======
+target3.type=ClassTarget
+>>>>>>> db6933d853bddd969166d8fd5a5c91f205bca3f3
+target4.width=80
+target5.typeParameters=
+world.lastInstantiated=MyWorld
+class.wombat.image=wombat.png
+mainWindow.height=546
+target2.showInterface=false
+>>>>>>> 31c73dada7e36aaf4585cdc40cefef2853346529
 target3.name=B
 target3.naviview.expanded=true
 target3.showInterface=false
