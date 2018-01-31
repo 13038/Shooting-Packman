@@ -41,6 +41,10 @@ public class MyWorld extends World
            // showText( "Time Over", 100, 100 );
             //Greenfoot.stop();
         //}
+       if( rtime == 0 ){
+           showText("Game Clear!", 300, 100);
+           Greenfoot.stop();
+    }
     }
     
 }
