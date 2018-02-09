@@ -8,7 +8,6 @@ import greenfoot.*;
  */
 public class MyWorld extends World
 {
-    private int item = 0;
     private int rtime;
     /**
      * Constructor for objects of class MyWorld.
@@ -20,17 +19,16 @@ public class MyWorld extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
         rtime = 6000;
-        for(int i=0;i<7;++i){
-            int xmin = 0;
-            int xmax = 600;
+        for(int i=0;i<10;++i){
+            int xmin = 50;
+            int xmax = 550;
             int x = xmin + (int)(Math.random()*((xmax-xmin)+1));
-            int ymin = 0;
-            int ymax = 400;
+            int ymin = 50;
+            int ymax = 350;
             int y = ymin + (int)(Math.random()*((ymax-ymin)+1));
 
             addObject( new muffin(), x, y );
         }
-        
         addObject( new Wall(), 0, 0 );
         addObject( new Wall(), 600, 0 );
         addObject( new Wall(), 600, 400 );
@@ -70,6 +68,11 @@ public class MyWorld extends World
            // showText( "Time Over", 100, 100 );
             //Greenfoot.stop();
         //}
+        //ゲームクリアの画面
+       if( rtime == 0 ){
+           showText("Game Clear!", 300, 100);
+           Greenfoot.stop();
+    }
     }
     
 }

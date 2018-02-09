@@ -25,6 +25,7 @@ public class enemy extends Actor
            if( actor != null ){
                 move(0);
             }  
+
             
             setLocation(x+i,y+j);
         
@@ -65,7 +66,8 @@ public class enemy extends Actor
         } 
         
         
+
     }
-}// Add your action code here.
-}    
+} 
+}   
 
