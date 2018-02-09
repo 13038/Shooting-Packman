@@ -64,12 +64,23 @@ public class Player extends Actor
         get();//アイテム獲得カウンタ
         
         /*当たり判定*/
+        //敵キャラに当たった場合のゲームオーバー画面
         Actor actor = getOneObjectAtOffset( 0, 0, enemy.class );
         if( actor != null ){
             move(0);
-            //ゲームオーバー画面出力
+            getWorld().showText("Game Over・・・", 300, 100);
             Greenfoot.stop();
-        }       
+        }
+        
+        //敵の弾に当たった場合のゲームオーバー画面ベース
+        /*
+        Actor actor2 = getOneObjectAtOffset( 0, 0, TAMA.class );
+        if( actor2 != null ){
+            move(0);
+            getWorld().showText("Game Over・・・", 300, 100);
+            Greenfoot.stop();
+        }
+        */
     } 
     public void get()
     {
