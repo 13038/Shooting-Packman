@@ -1,7 +1,5 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
-<<<<<<<=HEAD
->>>>>>>=86f392cb426ed61f6d91dcf9ded89177eed2bb36
 class.ClearWorld.superclass=greenfoot.World
 class.MyWorld.image=Wall.jpg
 class.MyWorld.superclass=greenfoot.World
@@ -120,8 +118,8 @@ target4.x=100
 target4.y=130
 target5.editor.height=700
 target5.editor.width=900
-target5.editor.x=105
-target5.editor.y=72
+target5.editor.x=943
+target5.editor.y=695
 target5.height=50
 target5.name=muffin
 target5.naviview.expanded=false
