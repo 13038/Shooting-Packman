@@ -18,33 +18,39 @@ public class enemy extends Actor
            if( actor != null ){
                 move(0);
             }  
-            move(1);
-            checkObstacle();  
+        move(1);
+        checkObstacle();  
             
-                
-        // Add your action code here.
+        Actor tama = getOneIntersectingObject( TAMA.class );
+        if( tama != null ){
+            getWorld().removeObject( this );
+        }      
     }
     public void checkObstacle()
-{
-    Actor wall = getOneIntersectingObject(Wall.class);
-    if(wall!=null)
     {
-        move(-1);
-        int rand = Greenfoot.getRandomNumber(360);
-        if(0 <= rand && rand<90){
-            setRotation(0);
+        Actor wall = getOneIntersectingObject(Wall.class);
+        if(wall!=null)
+        {
+            move(-1);
+            int rand = Greenfoot.getRandomNumber(360);
+            if(0 <= rand && rand<90){
+                setRotation(0);
+                
+            }
+            else if(90<=rand && rand<180){
+                setRotation(90);
+                
+            }
+            else if(180<=rand && rand<270){
+                setRotation(180);
+                
+            }
+            else if(270<=rand && rand<=360){
+                setRotation(270);
+                
+            }
+            
         }
-        else if(90<=rand && rand<180){
-            setRotation(90);
-        }
-        else if(180<=rand && rand<270){
-            setRotation(180);
-        }
-        else if(270<=rand && rand<=360){
-            setRotation(270);
-        }
-        
     }
-}// Add your action code here.
 }    
 

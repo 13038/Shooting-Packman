@@ -13,6 +13,10 @@ public class Player extends Actor
     public Player()
     {
         item = 0;
+        GreenfootImage myImage= getImage();
+        int myNewHeight = (int)myImage.getHeight()/27;
+        int myNewWidth = (int)myImage.getWidth()/27;
+        myImage.scale(myNewWidth, myNewHeight);
     }
     
     /**
@@ -21,28 +25,29 @@ public class Player extends Actor
      */
     private int flag_tama = 0;
     public static int flag_key;
+    public int player_x;
+    public int player_y;
     public void act() 
     {
-
-        int x = getX();
-        int y = getY();
+        player_x = getX();
+        player_y = getY();
         if( Greenfoot.isKeyDown( "left" ) ){
-           setLocation( x-1,y );
+           setLocation( player_x-1,player_y );
            checkObstacle1();
            flag_key = 0;
         }
         if( Greenfoot.isKeyDown( "right" ) ){
-           setLocation( x+1,y );
+           setLocation( player_x+1,player_y );
            checkObstacle2();
            flag_key = 1;
         }
         if( Greenfoot.isKeyDown( "up" ) ){
-           setLocation( x,y-1 );
+           setLocation( player_x,player_y-1 );
            checkObstacle3();
            flag_key = 2;
         }
         if( Greenfoot.isKeyDown( "down") ){
-           setLocation( x,y+1 );
+           setLocation( player_x,player_y+1 );
            checkObstacle4();
            flag_key = 3;
         }
@@ -52,7 +57,7 @@ public class Player extends Actor
         if( Greenfoot.isKeyDown( "space" ) ){
             if( flag_tama == 0 ){
                 getWorld().addObject( new TAMA(), getX(), getY() );
-                flag_tama = 10;
+                flag_tama = 50;
             }
         }
         
