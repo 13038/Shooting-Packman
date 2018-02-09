@@ -12,39 +12,62 @@ public class enemy extends Actor
      * Act - do whatever the enemy wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    private int flag = 0;
+    private int i = 1;
+    private int j = 0;
     public void act() 
     {
+        Actor wall = getOneIntersectingObject(Wall.class);
+        int x = getX();
+        int y = getY();
+        int rand = Greenfoot.getRandomNumber(360);
         Actor actor = getOneObjectAtOffset( 0, 0, Player.class );
            if( actor != null ){
                 move(0);
             }  
-            move(1);
-            checkObstacle();  
+
             
+            setLocation(x+i,y+j);
+        
+            checkObstacle1();  
+            
+        
                 
         // Add your action code here.
     }
-    public void checkObstacle()
+    public void checkObstacle1()
 {
     Actor wall = getOneIntersectingObject(Wall.class);
     if(wall!=null)
     {
-        move(-1);
+        int x = getX();
+        int y = getY();
         int rand = Greenfoot.getRandomNumber(360);
-        if(0 <= rand && rand<90){
-            setRotation(0);
-        }
-        else if(90<=rand && rand<180){
-            setRotation(90);
-        }
-        else if(180<=rand && rand<270){
-            setRotation(180);
-        }
-        else if(270<=rand && rand<=360){
-            setRotation(270);
-        }
+        setLocation(x-i,y-j);
+         if(rand >= 0 && rand < 90)
+        {
+            i = -1;
+            j = 0;
+        } 
+        if(rand >= 90 && rand < 180)
+        {
+            i = 1;
+            j = 0;
+        } 
+        else if(rand >= 180 && rand < 270)
+        {
+            i = 0;
+            j = 1;
+        } 
+        else if(rand >= 270 && rand < 360)
+        {
+            i = 0;
+            j = -1;
+        } 
         
+        
+
     }
-}// Add your action code here.
-}    
+} 
+}   
 
