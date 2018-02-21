@@ -1,5 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=352221d91ab4ad830939fb1cda0e85f2c3eb3000
 class.ClearWorld.superclass=greenfoot.World
 class.MyWorld.image=Wall.jpg
 class.MyWorld.superclass=greenfoot.World
@@ -74,10 +76,11 @@ dependency9.to=Player
 dependency9.type=UsesDependency
 mainWindow.height=574
 mainWindow.width=856
-mainWindow.x=371
-mainWindow.y=201
-package.numDependencies=19
-package.numTargets=8
+mainWindow.x=98
+mainWindow.y=278
+package.numDependencies=14
+package.numTargets=7
+>>>>>>> 43162758697b341615d1cb3b6200206d26a327f6
 project.charset=UTF-8
 simulation.speed=59
 target1.editor.height=700

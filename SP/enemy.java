@@ -29,7 +29,7 @@ public class enemy extends Actor
                 move(0);
             }  
 
-            
+           move(400);
             setLocation(x+i,y+j);
             
             checkPlayer();
@@ -89,26 +89,26 @@ public class enemy extends Actor
         setLocation(x-i,y-j);
          if(rand >= 0 && rand < 90)
         {
-            i = -1;
+            i = -2;
             j = 0;
             flag_key = 0;
         } 
         if(rand >= 90 && rand < 180)
         {
-            i = 1;
+            i = 2;
             j = 0;
             flag_key = 1;
         } 
         else if(rand >= 180 && rand < 270)
         {
             i = 0;
-            j = 1;
-            flag_key = 2;
+            j = 2;
+	    flag_key = 2;
         } 
         else if(rand >= 270 && rand < 360)
         {
             i = 0;
-            j = -1;
+            j = -2;
             flag_key = 3;
         } 
         

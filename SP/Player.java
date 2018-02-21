@@ -25,8 +25,8 @@ public class Player extends Actor
      */
     private int flag_tama = 0;
     public static int flag_key;
-    public int player_x;
-    public int player_y;
+    public static int player_x;
+    public static int player_y;
     public void act() 
     {
         player_x = getX();
@@ -73,14 +73,14 @@ public class Player extends Actor
         }
         
         //敵の弾に当たった場合のゲームオーバー画面ベース
-        /*
-        Actor actor2 = getOneObjectAtOffset( 0, 0, TAMA.class );
+        
+        Actor actor2 = getOneObjectAtOffset( 0, 0, enemy_TAMA.class );
         if( actor2 != null ){
             move(0);
             getWorld().showText("Game Over・・・", 300, 100);
             Greenfoot.stop();
         }
-        */
+        
     } 
     public void get()
     {

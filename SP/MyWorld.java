@@ -26,7 +26,7 @@ public class MyWorld extends World
             int ymin = 50;
             int ymax = 350;
             int y = ymin + (int)(Math.random()*((ymax-ymin)+1));
-
+            
             addObject( new muffin(), x, y );
         }
         addObject( new Wall(), 0, 0 );
