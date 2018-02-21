@@ -32,9 +32,9 @@ spaceキー　弾を発射
 
 ＊＊＊　素材元　＊＊＊
 
-イラストレイン
-bokete
-HUMAN PICTOGRAM2.0
+イラストレイン(http://illustrain.com/)
+bokete(https://bokete.jp/)
+HUMAN PICTOGRAM2.0(http://pictogram2.com/)
 
 
 ＊＊＊　最後に　＊＊＊
