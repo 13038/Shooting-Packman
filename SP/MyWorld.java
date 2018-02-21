@@ -20,8 +20,21 @@ public class MyWorld extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(620, 420, 1);
         rtime = 6000;
+
         
         
+
+        for(int i=0;i<10;++i){
+            int xmin = 50;
+            int xmax = 550;
+            int x = xmin + (int)(Math.random()*((xmax-xmin)+1));
+            int ymin = 50;
+            int ymax = 350;
+            int y = ymin + (int)(Math.random()*((ymax-ymin)+1));
+            
+            addObject( new muffin(), x, y );
+        }
+
         addObject( new Wall(), 0, 0 );
         addObject( new Wall(), 620, 0 );
         addObject( new Wall(), 620, 400 );
